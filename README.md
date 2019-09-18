@@ -1,5 +1,5 @@
 # Online Amicable Form
-Proiect CodersLab
+   CodersLab Project
 
 This project was started durring the classes I follwed at CodersLab. 
 
@@ -7,7 +7,7 @@ My application idea came after I realized in Romania you don't have the posibili
 
 With this app, I want people be capable to create an account based on their vehicule number, log in, complete the form, upload their documents, and send it directly to insurance companies, without the need to go phisically there and complete tons of papers. 
 
-# technologies used
+# Technologies used
 
 The app was developed in ReactJS. 
 I also used:
