@@ -1,6 +1,5 @@
-# myProject
-Online Amicable Form
-- Proiect CodersLab -
+# Online Amicable Form
+Proiect CodersLab
 
 This project was started durring the classes I follwed at CodersLab. 
 
