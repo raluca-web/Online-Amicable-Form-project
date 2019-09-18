@@ -13,7 +13,8 @@ The app was developed in ReactJS.
 I also used:
 - HTML 
 - CSS/SCSS 
-- RWD EcmaScript6
+- RWD 
+- EcmaScript6
 - NPM 
 - BABEL 
 - WEBPACK 
