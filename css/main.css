@@ -1,0 +1,274 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', 'Arial', sans-serif;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden; }
+
+.mr-20 {
+  margin-right: 20px !important; }
+
+.app {
+  height: 100vh;
+  display: flex;
+  color: white; }
+
+.app-left {
+  width: 50%;
+  background-color: lightgrey;
+  display: inline; }
+  .app-left h1 {
+    color: #616E7F;
+    font-size: 3em;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px; }
+  .app-left .app-left-btn {
+    width: 100%;
+    text-align: center;
+    align-items: center; }
+    .app-left .app-left-btn .link {
+      text-decoration: none; }
+  .app-left .main-btn {
+    display: inline;
+    width: 70%;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border-radius: 0.6em;
+    cursor: pointer;
+    align-self: center;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-color: #52C4B9;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #52C4B9 inset, 0 0 0 0 #52C4B9;
+    transition: all 150ms ease-in-out; }
+    .app-left .main-btn:hover {
+      box-shadow: 0 0 10px 0 gray inset, 0 0 10px 4px gray;
+      text-decoration: none; }
+    .app-left .main-btn:hover, .app-left .main-btn:focus {
+      color: #555555;
+      outline: 0;
+      text-decoration: none; }
+
+.app-right {
+  width: 50%;
+  background-color: darkgrey;
+  padding: 25px 40px;
+  overflow: auto;
+  box-shadow: 4px 4px 19px 2px rgba(0, 0, 0, 0.65);
+  display: inline-block; }
+  .app-right .formTitle {
+    color: #707C8B;
+    font-weight: 400;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    display: inline-block;
+    width: 70%; }
+    .app-right .formTitle .formTitle-link {
+      color: #616E7F;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 1.7em;
+      margin: 0 10px;
+      padding-bottom: 5px; }
+    .app-right .formTitle .formTitle-link:first-child {
+      margin-left: 0; }
+    .app-right .formTitle .formTitle-link-active {
+      color: floralwhite;
+      border-bottom: 2px solid #52C4B9; }
+  .app-right .flag {
+    width: 30%;
+    display: inline-block; }
+    .app-right .flag .logo {
+      height: 80px;
+      width: auto;
+      float: left;
+      margin-left: 20px;
+      border: #888888 1px solid;
+      box-shadow: 4px 4px 19px 0 rgba(0, 0, 0, 0.55); }
+
+.formCenter {
+  margin-bottom: 100px; }
+  .formCenter h2 {
+    color: #555555;
+    font-size: 2em;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 70px; }
+  .formCenter .formField {
+    margin-bottom: 40px; }
+    .formCenter .formField .formField-label {
+      display: block;
+      text-transform: uppercase;
+      font-size: 1.1em;
+      color: white;
+      letter-spacing: 1px; }
+    .formCenter .formField .formField-input {
+      width: 85%;
+      background-color: transparent;
+      border: none;
+      color: white;
+      outline: none;
+      border-bottom: 1px solid #445366;
+      font-size: 1em;
+      font-weight: 300;
+      padding-bottom: 10px;
+      margin-top: 10px; }
+    .formCenter .formField .formField-input::placeholder {
+      color: #616E7F; }
+    .formCenter .formField .formField-button {
+      background-color: #52C4B9;
+      color: white;
+      border: none;
+      outline: none;
+      border-radius: 25px;
+      padding: 15px 70px;
+      font-size: .8em;
+      font-weight: 500; }
+    .formCenter .formField .formField-link {
+      color: #616E7F;
+      text-decoration: none;
+      display: inline-block;
+      border-bottom: 1.5px solid #52C4B9;
+      padding-bottom: 5px;
+      text-transform: uppercase; }
+    .formCenter .formField .formField-checkboxLabel {
+      color: #646F7D;
+      font-size: .9em; }
+    .formCenter .formField .formField-checkbox {
+      position: relative;
+      top: 1.5px; }
+    .formCenter .formField .formField-termsLink {
+      color: white;
+      border-bottom: 1px solid #199087;
+      text-decoration: none;
+      display: inline-block;
+      padding-bottom: 2px;
+      margin-left: 5px; }
+
+.footer-links:after {
+  content: "";
+  position: absolute;
+  left: 300px;
+  bottom: -60px;
+  height: 1px;
+  width: 50%;
+  border-bottom: 3px solid #52C4B9; }
+
+.footer-links {
+  display: flex;
+  text-align: center; }
+  .footer-links .footer-left {
+    display: inline;
+    width: 60%; }
+    .footer-links .footer-left .footer-nav li {
+      display: inline-block;
+      padding-right: 10px; }
+      .footer-links .footer-left .footer-nav li a {
+        font-size: 1.3em; }
+
+.footer-right {
+  display: inline;
+  width: 30%; }
+  .footer-right .social-links li {
+    padding-right: 30px;
+    padding-top: 20px;
+    display: inline-block; }
+
+.content {
+  display: block;
+  color: #888; }
+  .content p {
+    align-items: center;
+    text-align: center;
+    color: #888; }
+  .content span {
+    font-weight: 400; }
+
+.footer-nav li,
+.social-links li {
+  display: inline-block;
+  margin-right: 20px; }
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+  margin-right: 0; }
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+  text-decoration: none;
+  border: 0;
+  color: #888;
+  transition: color 0.2s; }
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+  color: #52C4B9; }
+
+.social-links li a:link,
+.social-links li a:visited {
+  font-size: 1.3em; }
+
+.frequentQuestions {
+  height: 100vh;
+  margin: 20px; }
+  .frequentQuestions .firstSection {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 250%;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    color: #cccccc;
+    padding-bottom: 20px; }
+    .frequentQuestions .firstSection span {
+      display: block;
+      color: #616E7F;
+      border: 2px solid whitesmoke;
+      text-align: center;
+      padding-top: 15px;
+      padding-bottom: 15px; }
+  .frequentQuestions .question {
+    font-size: 150%;
+    padding: 0 20px 20px 20px;
+    background-color: #cccccc;
+    text-align: center;
+    box-shadow: 4px 4px 19px 0 rgba(0, 0, 0, 0.25);
+    color: #616E7F; }
+    .frequentQuestions .question a {
+      color: #52C4B9;
+      text-underline: none;
+      text-decoration: none;
+      padding-top: 10px; }
+  .frequentQuestions .answer {
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    padding: 15px; }
+
+.instructions {
+  color: #555555;
+  margin: 30px; }
+  .instructions .instructions-one {
+    padding-bottom: 20px; }
+
+/*# sourceMappingURL=maps/main.css.map */
